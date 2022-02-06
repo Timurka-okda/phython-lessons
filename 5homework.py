@@ -10,12 +10,12 @@ import sys
 # while True:
 #     if n % 2 == 0:
 #         print("ВВЕДИТЕ НЕЧЕТНОЕ ЧИСЛО!!!!!")
-#         n = int(input("n: "))
+#        n = int(input("n: "))
 #     else:
-#         break
+#        break
 # while x <= n:
 #     s += x
-#     x += 2
+#    x += 2
 # print(f"Sum of {s} value {x - 2}")
 
 # 2
@@ -35,11 +35,11 @@ import sys
 # print(f"Length of your number is: {count}")
 
 # 3
-# s = 0  # Start value of sum
-# x = 2
-# print("S = 1/2 + 1/4 + 1/8 + 1/16 + 1/32 +.... + n")
-# n = int(input("n: "))
-# while x <= n ** 2:
-#     s += 1 / x
-#     x *= 2
-# print(f"Sum of {float(s)}")
+ s = 0  # Start value of sum
+ x = 2
+ print("S = 1/2 + 1/4 + 1/8 + 1/16 + 1/32 +.... + n")
+ n = int(input("n: "))
+ while x <= n ** 2:
+     s += 1 / x
+     x *= 2
+ print(f"Sum of {float(s)}")
